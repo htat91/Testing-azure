@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Testing_azure</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/b9fb2a91-3179-479c-aa46-24f45c84d6ca/resourceGroups/az-test/providers/microsoft.insights/components/testing-az</ApplicationInsightsResourceId>
+    <UserSecretsId>5629e0c3-04b1-4309-aa70-f1b77d4c65b1</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
